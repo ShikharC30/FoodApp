@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.showcase{
+    background-image: linear-gradient(rgba(8, 8, 8, 0.384),rgb(0,0,0,1)) , url("/public/Image/pexels-trang-doan-1099680.jpg");
+    height: 100vh;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+.showcase-content{
+    position: absolute;
+    top : 30%;
+    left : 15%;
+}
+
+.showcase-content h1{
+    color: white;
+    font-size: 400%;
+}
+
+.showcase-buttons{
+    margin-top: 20px;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+#changing-text{
+    color: #ff4e55;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    align-items: center;
+}
+
+.showcase-ul{
+    display: flex;
+    list-style: none;
+    width: 45%;
+    justify-content: space-around;
+    /* margin-top: 5px; */
+}
+
+.showcase-li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.2s;
+}
+
+.showcase-li{
+    transition: transform 0.3s;
+}
+
+.showcase-li:hover{
+    color: #ff4e55;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.showcase-li a:hover{
+    color: #ff4e55;
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff4e55;
+    color: white;
+    height: 50px;
+    border-radius: 30px;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-fade{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff4e55;
+    color: #ff4e55;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-fade:hover{
+    transform: scale(1.2);
+    background: #ff4e55;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.fixed{
+    background:white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.fixed a{
+    color: #ff4e55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
